@@ -1,3 +1,6 @@
+MYGIT Account:
+Jannyju mac password,没有大写
+
 1. 安装ATOM,Anaconda,配置ATOM 编写python
 
 MAC安装ATOM随记
@@ -39,3 +42,9 @@ min版本
 
 5. Mac 安装 XAMPP教程
 https://www.jianshu.com/p/613a51aae849
+
+6. Mac 安装nodejs
+https://blog.csdn.net/yst19910702/article/details/89714544
+npm -v
+node -v
+node nodejstest.js
