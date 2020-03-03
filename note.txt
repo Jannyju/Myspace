@@ -36,3 +36,6 @@ https://www.jianshu.com/p/b9528cce4e9f
 4 安装centOS
 http://mirrors.163.com/centos/7.7.1908/isos/x86_64/
 min版本
+
+5. Mac 安装 XAMPP教程
+https://www.jianshu.com/p/613a51aae849
