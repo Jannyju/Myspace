@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script>
+            window.onload = function(){
+                let obtn = document.getElementById('btn1');
+                obtn.onclick = function(){
+                    let xhr = new XMLHttpRequest();
+                    /*
+                    if (window.XMLHttpRequest){
+                        var xhr = new XMLHttpRequest();
+                    }else{
+                        var xhr = new ActiveXObject('microsoft.xhmlhttp');
+                    }
+                     */
+//connected
+//true 同步
+//false 异步
+                    xhr.open('POST','2.php?a=12&b=5',true)
+                    //send
+                    xhr.send('a=12&b=5');
+                        //received
+                    xhr.onreadystatechange = function(){
+                        if (xhr.readyState == 4){
+                            if (xhr.status >= 200 && xhr.status < 300 || xhr.status == 304){
+                                alert("success"+ xhr.responseText);
+                            }else{
+                                alert("failed");
+                            }
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+
+    </body>
+</html>

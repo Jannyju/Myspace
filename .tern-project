@@ -1,0 +1,19 @@
+{
+  "ecmaVersion": 8,
+  "libs": [
+    "browser",
+    "jquery",
+    "react"
+  ],
+  "loadEagerly": [],
+  "dontLoad": [
+    "node_modules/**"
+  ],
+  "plugins": {
+    "doc_comment": true,
+    "node-express": {},
+    "complete_strings": {
+      "maxLength": 15
+    }
+  }
+}
