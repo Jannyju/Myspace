@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "express": "^4.17.1",
+    "uuid": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,5 +1,3 @@
-MYGIT Account:
-Jannyju mac password,没有大写
 
 ## ATOM 设置
 - 安装ATOM,Anaconda,配置ATOM 编写python
@@ -44,6 +42,15 @@ Ctrl + Shift + H
 https://blog.csdn.net/u011296485/article/details/83717493
 https://www.jianshu.com/p/b9528cce4e9f
 
+*Mygithub*
+- https://github.com/Jannyju/Myspace  
+- // MYGIT Account:Jannyju mac password,没有大写
+- git clone // checkout
+- git add . // add files
+- git commit -m 'some notes here'
+- git push
+- git pull //update
+
 2. 安装centOS: mirrors.163.com
 http://mirrors.163.com/centos/7.7.1908/isos/x86_64/
 min版本
@@ -53,6 +60,8 @@ https://www.jianshu.com/p/613a51aae849
 (base) localhost:/ yuanqunju$ sudo /usr/sbin/apachectl restart
 (base) localhost:/ yuanqunju$ sudo /usr/sbin/apachectl stop
 (base) localhost:/ yuanqunju$ sudo /usr/sbin/apachectl start
+http://www.mysites.com/Myspace/data_communication/server.html
+
 
 4. Mac 安装nodejs
 https://blog.csdn.net/yst19910702/article/details/89714544
@@ -62,7 +71,7 @@ https://blog.csdn.net/yst19910702/article/details/89714544
  - npm ->cnpm
     - npm.taobao.org
     - npm install -g cnpm --registry=https://registry.npm.taobao.org
-   - sudo npm
+    - sudo npm
 
 5. 安装 babel
 https://babeljs.io/setup
